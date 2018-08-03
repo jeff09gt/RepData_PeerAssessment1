@@ -1,8 +1,3 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
 
 ### Courser RepResearch: Project 01
 
