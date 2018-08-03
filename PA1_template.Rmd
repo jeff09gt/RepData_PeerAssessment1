@@ -1,9 +1,18 @@
 
 
+---
+title: "test"
+output: 
+  html_document:
+      keep_md: true
+---
+
+
+
 ### Courser RepResearch: Project 01
 
 ## Loading and preprocessing the data
-```{r}
+```{r fig.height=3, fig.width=4, self_contained: no}
 if(file.exists("activity.zip")) unzip(zipfile = "activity.zip")
 ld_dt <- read.csv("activity.csv")
 ```
